@@ -1,0 +1,272 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indobild Test</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="src/logo.svg" alt="404 not found">
+        <div class="box">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="Search your venue location">
+        </div>
+        <nav>
+            <ul class="nav_link">
+                <li><a href="#">Explore Event</a></li>
+                <li><a href="#">Help</a></li>
+                <li>|</li>
+            </ul>
+        </nav>
+        <a href="#"><button class="highlightbutton">Create Event</button></a>
+        <a href="#"><button class="nonhgbutton">Sign Up</button></a>
+    </header>
+
+    <div class="jumbotron">
+        <div class="container">
+            <div class="modal">
+            <h2>Hey! Looking for an interesting event? Let us help you find it.</h2>
+            <form action="">
+                <ul>
+                    <li>
+                        <label for="category">First, choose a category that you want.</label>
+                        <div class="custom-select">
+                            <select placeholder="Category Event" name="category" id="category">
+                                <option value="#" selected>Category Event</option>
+                                <option value="#">Konser</option>
+                                <option value="#">Tournament</option>
+                                <option value="#">Event</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li>
+                        <label for="location">Where do you want to go?</label>
+                        <div class="form-search">
+                            <i class="fa fa-search"></i>
+                            <input type="text" placeholder="Search Location" name="location" id="location">
+                        </div>
+                    </li>
+                    <li>
+                        <label for="date">Fill up your free time!</label>
+                        <div class="form-date">
+                            <input type="date" placeholder="Pick a Date!" name="date" id="date">
+                        </div>
+                    </li>
+                    <button type="submit">Let's Go!</button>
+                </ul>
+            </form>
+            </div>
+            <div class="event-highlight">
+                <h1>Our Highlighted Event</h1>
+                <div class="event">
+                    <div class="grid">
+                        <a href="detail.html" class="grid-item">
+                        <div class="card">  
+                        <div class="liked">
+                            <div class="on-liked">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                        </div>
+                        <img class="card-img" src="src/FB-Event-1.svg" alt="">
+                        <div class="card-content">
+                            <h1 class="card-header">Coffee Journey 2019</h1>
+                            <p class="card-time">1 Aug 2019 - 3 Aug 2019 | 11:00 - 17:00</p>
+                            <p class="card-location">Indobild, Blugreen Office SBI, 8th Floor</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid">
+                <a href="detail.html" class="grid-item">
+                    <div class="card">
+                        <div class="liked">
+                            <div class="off-liked">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                        </div>  
+                        <img class="card-img" src="src/FB-Event-2.svg" alt="">
+                        <div class="card-content">
+                            <h1 class="card-header">ESL Indonesia Championship Season 2 - Dota 2 Finals</h1>
+                            <p class="card-time">Sun, 15 Sep 2019 | 10:00 AM - 08:00 PM WIB</p>
+                            <p class="card-location">Tennis Indoor Stadium, Jl. Pintu Satu Senaya…</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="event-header">Upcoming Event</h1>
+        <div class="event">
+            <div class="grid">
+                <a href="detail.html" class="grid-item">
+                    <div class="card">  
+                        <div class="liked">
+                            <div class="on-liked">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                        </div>
+                        <img class="card-img" src="src/FB-Event-1.svg" alt="">
+                        <div class="card-content">
+                            <h1 class="card-header">Coffee Journey 2019</h1>
+                            <p class="card-time">1 Aug 2019 - 3 Aug 2019 | 11:00 - 17:00</p>
+                            <p class="card-location">Indobild, Blugreen Office SBI, 8th Floor</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid">
+                <a href="detail.html" class="grid-item">
+                    <div class="card">
+                        <div class="liked">
+                            <div class="off-liked">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                        </div>  
+                        <img class="card-img" src="src/FB-Event-2.svg" alt="">
+                        <div class="card-content">
+                            <h1 class="card-header">ESL Indonesia Championship Season 2 - Dota 2 Finals</h1>
+                            <p class="card-time">Sun, 15 Sep 2019 | 10:00 AM - 08:00 PM WIB</p>
+                            <p class="card-location">Tennis Indoor Stadium, Jl. Pintu Satu Senaya…</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid">
+                <a href="detail.html" class="grid-item">
+                    <div class="card">
+                        <div class="liked">
+                            <div class="off-liked">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                        </div>
+                        <img class="card-img" src="src/FB-Event-3.svg" alt="">
+                        <div class="card-content">
+                            <h1 class="card-header">Binance Super Meetup Indonesia</h1>
+                            <p class="card-time">Sat, 14 Sep 2019 | 04:00 PM - 06:00 PM WIB</p>
+                            <p class="card-location">Sheraton Grand Jakarta Gandaria City Hotel…</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="event">
+            <div class="grid">
+                <a href="detail.html" class="grid-item">
+                    <div class="card">  
+                        <div class="liked">
+                            <div class="on-liked">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                        </div>
+                        <img class="card-img" src="src/FB-Event-4.svg" alt="">
+                        <div class="card-content">
+                            <h1 class="card-header">Indonesia-Korea Conference 2019</h1>
+                            <p class="card-time">Wed, 18 Sep 2019 | 08:00 AM - 05:00 AM WIB</p>
+                            <p class="card-location">Soehanna Hall, Kec. Kby. Baru, DKI Jakarta</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid">
+                <a href="detail.html" class="grid-item">
+                    <div class="card">
+                        <div class="liked">
+                            <div class="on-liked">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                        </div>  
+                        <img class="card-img" src="src/FB-Event-5.svg" alt="">
+                        <div class="card-content">
+                            <h1 class="card-header">The 6th International Young Investors Award</h1>
+                            <p class="card-time">9 Oct 2019 - 12 Oct 2019 | 08:00 PM WIB</p>
+                            <p class="card-location">Taman Mini Indonesia Indah, Jl. Raya Taman…</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid">
+                <a href="detail.html" class="grid-item">
+                    <div class="card">
+                        <div class="liked">
+                            <div class="off-liked">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                        </div>
+                        <img class="card-img" src="src/FB-Event-6.svg" alt="">
+                        <div class="card-content">
+                            <h1 class="card-header">Opera at the Ballpark General Admission</h1>
+                            <p class="card-time">Sat, 21 Sep 2019 | 7:30 PM - 10:30 PM PDT</p>
+                            <p class="card-location">Oracle Park, 24 Willie Mays Plaza, San Fransis…</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="event">
+            <div class="grid">
+                <a href="detail.html" class="grid-item">
+                    <div class="card">  
+                        <div class="liked">
+                            <div class="off-liked">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                        </div>
+                        <img class="card-img" src="src/FB-Event-7.svg" alt="">
+                        <div class="card-content">
+                            <h1 class="card-header">PLANET HOME 2019 - VILLAGE</h1>
+                            <p class="card-time">13 Sep 2019 - 15 Sep 2019 | 05:00 PM PDT</p>
+                            <p class="card-location">Palace of Fine Arts, 3601 Lyon Street, San Fra…</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid">
+                <a href="detail.html" class="grid-item">
+                    <div class="card">
+                        <div class="liked">
+                            <div class="off-liked">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                        </div>  
+                        <img class="card-img" src="src/FB-Event-8.svg" alt="">
+                        <div class="card-content">
+                            <h1 class="card-header">TEDxSanFransisco : Dare To Know</h1>
+                            <p class="card-time">Thu, 3 Oct 2019 | 09:00 - 05:30 PM PDT</p>
+                            <p class="card-location">Herbst Theatre, 401 Van Ness Avenue, San Fr…</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid">
+                <a href="detail.html" class="grid-item">
+                    <div class="card">
+                        <div class="liked">
+                            <div class="on-liked">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                        </div>
+                        <img class="card-img" src="src/FB-Event-9.svg" alt="">
+                        <div class="card-content">
+                            <h1 class="card-header">Morcheeba at The Midway</h1>
+                            <p class="card-time">11 Aug 2019 - 12 Aug 2019 | 09:00 & 14:00</p>
+                            <p class="card-location">The Midway, 900 Marin St, San Fransisco</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <p> © 2022 PT. Buana Artha Indopratama</p>
+</footer>
+</html>

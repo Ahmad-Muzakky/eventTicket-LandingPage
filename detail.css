@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+body{
+font-family: 'Montserrat', sans-serif;
+}
+/* navbar section */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* warna */
+}
+
+.jumbotron{
+    position: relative;
+    filter: blur(8px);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-image: url("src/FB-Event-1.svg");
+}
+
+.container {
+  width: 90%;
+  max-width: 1550px;
+  margin: 0 auto;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+.dashed{
+border-top: 1.5px dashed #E6E6E6;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+li, a, button{
+    
+    font-weight: 500;
+    font-size: 16px;
+    color: #3B3A57;
+    /* warna */
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.box{
+    background-color: #F6F6F6;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    color: #93999D;
+    margin-right: auto;
+}
+
+input{
+    width: 240px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+}
+
+.fa-search{
+    background-color: #F6F6F6;
+    cursor: pointer;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_link{
+    list-style: none;
+}
+
+.nav_link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_link li a{
+    transition: all 0.3s ease 0s;
+}
+
+.highlightbutton{
+    padding: 9px 25px;
+    background-color: #FF843E;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.nonhgbutton{
+    margin-left: 5px;
+    padding: 9px 25px;
+    background-color: white;
+    border: 2px solid #FF843E;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #FF843E;
+}
+
+.modal{
+    margin: 100px;
+    width: 100%;
+    /* position: absolute; */
+    background-color: white;
+    border: 2px solid #F6F6F6;
+}
+
+.headline{
+    display: flex;
+    height: 510px;
+    background-color: #F6F6F6;
+}
+
+.headline-img{
+    width: 66%;
+    position: relative;
+}
+
+
+.headline-img img{
+    width: 100%;
+}
+
+.btn-right{
+    font-size: 30px;
+    opacity: 50%;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+}
+
+.btn-left{
+    font-size: 30px;
+    opacity: 50%;
+    position: absolute;
+    bottom: 5%;
+    right: 15%;
+
+}
+
+.headline-detail{
+    width: 34%;
+    padding: 50px;
+}
+
+.headline-icon{
+    color: #B6B6B6;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.headline-icon i{
+    margin-right: 30px;
+}
+.headline-detail p{
+    color: rgba(51, 51, 51, 0.5);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.headline-detail button{
+    padding: 9px 25px;
+    background-color: #FF843E;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.detail{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.event-detail{
+    width: 30%;
+    display: flex;
+}
+
+.event-detail i{
+    margin-right: 30px;
+    font-size: 30px;
+    color: rgba(43, 103, 219, 0.5);
+}
+.event-detail a{
+    color: #518FEC;
+    font-size: 13px;
+}
+
+.vl{
+      border-left: 1.5px dashed #E6E6E6;
+  height: 200px;
+}
+
+.detail-title{
+    color: #334553;
+}
+
+.description{
+    color: #93999D;
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about{
+    color: #334553;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.about p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.about a{
+    color: #518FEC;
+}
+
+.profile{
+    color: #334553;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.profile-content{
+    color: #334553;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-content img{
+    margin-right: 40px;
+}
+
+.profile-text{
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.profile-content button{
+    padding: 9px 25px;
+    background-color: #FF843E;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.related-event{
+    color: #334553;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+footer{
+    padding: 30px;
+    background-color: #F6F6F6;
+}
+
+footer p{
+    background-color: #F6F6F6;
+    color: #93999D;
+    text-align: center;
+    margin-top: 55%;
+}
+
+.mySlides {
+    display:none;
+}
+
+.grid{
+    display: grid;
+    width: 500px;
+    height: 400px;
+    margin-right: 40px;
+}
+
+.grid-item{
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 10px;
+    border: 1px solid #93999D;
+}
+
+.card{
+    width: 500px;
+    position: relative;
+}
+
+.liked{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    right: 40;
+    top: 10;
+}
+
+.on-liked i{
+    position: absolute;
+    top: 10;
+    right: 10;
+    font-size: 30px;
+    color: rgba(255, 99, 99, 0.8);;
+}
+
+.off-liked i{
+    position: absolute;
+    top: 10;
+    right: 10;
+    font-size: 30px;
+}
+
+.card-img{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.card-content{
+    padding: 30px;
+}
+
+.card-header{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #334553;
+    margin-bottom: 1,5rem;
+}
+
+.card-time{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #334553;
+    
+}
+
+.card-location{
+    color: #93999D;
+}
+
+.event {
+    margin: 20px 0px 20px 0px;
+    color: #334553;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

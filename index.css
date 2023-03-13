@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+body{
+font-family: 'Montserrat', sans-serif;
+}
+/* navbar section */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* warna */
+}
+
+.container {
+  width: 90%;
+  max-width: 1550px;
+  margin: 0 auto;
+}
+
+li, a, button{
+    
+    font-weight: 500;
+    font-size: 16px;
+    color: #3B3A57;
+    /* warna */
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.box{
+    background-color: #F6F6F6;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    color: #93999D;
+    margin-right: auto;
+}
+
+input{
+    width: 240px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+}
+
+.fa-search{
+    background-color: #F6F6F6;
+    cursor: pointer;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_link{
+    list-style: none;
+}
+
+.nav_link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_link li a{
+    transition: all 0.3s ease 0s;
+}
+
+.highlightbutton{
+    padding: 9px 25px;
+    background-color: #FF843E;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.nonhgbutton{
+    margin-left: 5px;
+    padding: 9px 25px;
+    background-color: white;
+    border: 2px solid #FF843E;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #FF843E;
+}
+
+/* jumbtron section */
+.jumbotron{
+    background-image: url("./src/header.svg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+
+.modal{
+    background-color: white;
+    border-radius: 10px;
+    color: #334553;
+    font-weight: bold;
+    width: 600px;
+    padding: 30px;
+    margin: 30px;
+    left: 2%;
+    top: 15%;
+    position: absolute;
+}
+
+.event-highlight{
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    padding: 30px;
+    margin: 30px;
+    color: white;
+}
+
+form ul li{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+form ul li div{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    border: 2px solid #93999D;
+    border-radius: 10px;
+    padding: 0px 25px;
+    color: #93999D;
+    margin-right: auto;
+    
+}
+
+form ul button{
+    padding: 15px 25px;
+    background-color: #FF843E;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+    margin: 50px 70px 10px 100px;
+    width: 60%;
+}
+
+/* event card */
+.event {
+    margin: 20px 0px 20px 0px;
+    color: #334553;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-header{
+    color: #334553;
+    margin: 20px 0px 20px 0px;
+}
+
+.grid{
+    display: grid;
+    width: 500px;
+    height: 400px;
+    margin-right: 40px;
+}
+
+.grid-item{
+    overflow: hidden;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.2s;
+    border-radius: 10px;
+    border: 1px solid #93999D;
+}
+
+.card{
+    width: 500px;
+    position: relative;
+}
+
+.liked{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    right: 40;
+    top: 10;
+}
+
+.on-liked i{
+    position: absolute;
+    top: 10;
+    right: 10;
+    font-size: 30px;
+    color: rgba(255, 99, 99, 0.8);;
+}
+
+.off-liked i{
+    position: absolute;
+    top: 10;
+    right: 10;
+    font-size: 30px;
+}
+
+.card-img{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.card-content{
+    padding: 30px;
+}
+
+.card-header{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #334553;
+    margin-bottom: 1,5rem;
+}
+
+.card-time{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #334553;
+    
+}
+
+.card-location{
+    color: #93999D;
+}
+
+footer{
+    padding: 30px;
+    background-color: #F6F6F6;
+}
+
+footer p{
+    background-color: #F6F6F6;
+    color: #93999D;
+    text-align: center;
+}
+
+.form-search{
+    display: flex;
+    align-items: center;
+}
+
+.form-date{
+    display: flex;
+    align-items: center;
+    color: #93999D;
+}
+.form-date input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #93999D;
+}
+
+.custom-select select{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #93999D;
+}
